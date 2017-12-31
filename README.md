@@ -6,8 +6,7 @@ Rules: https://en.wikipedia.org/wiki/Boggle
 _NB: This is old skool boggle cubes_
 
 ## To play in the terminal
-1. Clone the repo locally
-2. CD to repo
-3. `$ irb` to start your ruby repl
-3. `> load "boggle.rb"`
-4. `> playgame(cubes, duration=180)`
+1. You'll need ruby installed. Check if you've got it with `$ ruby -v`
+2. Clone the repo locally
+3. CD to repo
+4. `$ ruby boggle.rb` (play starts immediately)

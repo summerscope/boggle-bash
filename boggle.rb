@@ -20,8 +20,10 @@ def shuffleboard(cubes)
   print "+--------------+\n"
 end
 
-def playgame(cubes, duration=90)
+def playgame(cubes, duration=180)
   shuffleboard cubes
   sleep duration
   puts "game over, bitches!"
 end
+
+playgame(cubes) if __FILE__ == $0
