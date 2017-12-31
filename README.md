@@ -9,6 +9,5 @@ _NB: This is old skool boggle cubes_
 1. Clone the repo locally
 2. CD to repo
 3. `$ irb` to start your ruby repl
-3. `> load boggle.rb`
+3. `> load "boggle.rb"`
 4. `> playgame(cubes, duration=180)`
-
